@@ -1,0 +1,9 @@
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Logs gerados em execução (ex.: paradas_servico.log do blink_off.py)
+*.log
+
+# Segurança: o token do GitHub nunca deve entrar no repositório
+token*.txt

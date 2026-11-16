@@ -1,0 +1,14 @@
+# Unit file do exemplo do roteiro (bash script).
+# Diferença em relação ao roteiro: a chave é "User=" (systemd diferencia maiúsculas;
+# "user=SEL" é ignorada) e o usuário da placa é "sel".
+
+[Unit]
+Description=Blink LED
+After=multi-user.target
+
+[Service]
+ExecStart=/home/sel/git_projects/SEL0337-Pratica5/checkpoint1/exemplo_bash/blink.sh
+User=sel
+
+[Install]
+WantedBy=multi-user.target
