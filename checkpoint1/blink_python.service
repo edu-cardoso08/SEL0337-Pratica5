@@ -1,0 +1,17 @@
+
+
+[Unit]
+Description=Blink LED em Python (SEL0337 Pratica 5)
+After=multi-user.target
+
+[Service]
+Type=simple
+User=sel
+WorkingDirectory=/home/sel/git_projects/SEL0337-Pratica5/checkpoint1
+ExecStart=/home/sel/4234/bin/python -u /home/sel/git_projects/SEL0337-Pratica5/checkpoint1/blink_led.py
+ExecStop=/home/sel/4234/bin/python -u /home/sel/git_projects/SEL0337-Pratica5/checkpoint1/blink_off.py $MAINPID
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
