@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SEL0337 - Pratica 5 - Checkpoint 1 | Eduardo M. Cardoso (14567242) e Caua S. Fernandes (14754734)
+# Eduardo M. Cardoso (14567242) e Caua S. Fernandes (14754734)
 # Pisca o LED da GPIO18 (pino 12). Iniciado no boot pelo systemd (blink_python.service).
 # Ao receber SIGTERM (systemctl stop), sai do laco, apaga o LED e libera a GPIO.
 
