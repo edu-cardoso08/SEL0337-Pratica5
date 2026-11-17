@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SEL0337 - Pratica 5 - Checkpoint 1 | Eduardo M. Cardoso (14567242) e Caua S. Fernandes (14754734)
+## Eduardo M. Cardoso (14567242) e Caua S. Fernandes (14754734)
 # Programa do ExecStop, executado em "sudo systemctl stop blink_python".
 # Encerra o blink_led.py (PID recebido via $MAINPID), pisca o LED 3 vezes,
 # deixa-o apagado e registra a data/hora da parada em paradas_servico.log.
