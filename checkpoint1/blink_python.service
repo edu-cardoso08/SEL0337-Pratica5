@@ -1,7 +1,5 @@
-# SEL0337 - Pratica 5 - Checkpoint 1 | Eduardo M. Cardoso (14567242) e Caua S. Fernandes (14754734)
+#Eduardo M. Cardoso (14567242) e Caua S. Fernandes (14754734)
 # Unit file do systemd: inicia o blink_led.py no boot e roda o blink_off.py no stop.
-# O Python do venv 4234 e chamado explicitamente, pois o script depende dele e de suas bibliotecas.
-# Instalacao: sudo cp blink_python.service /lib/systemd/system/
 
 [Unit]
 Description=Blink LED em Python (SEL0337 Pratica 5)
