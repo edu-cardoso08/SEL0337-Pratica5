@@ -1,7 +1,3 @@
-# Unit file do exemplo do roteiro (bash script).
-# Diferença em relação ao roteiro: a chave é "User=" (systemd diferencia maiúsculas;
-# "user=SEL" é ignorada) e o usuário da placa é "sel".
-
 [Unit]
 Description=Blink LED
 After=multi-user.target
